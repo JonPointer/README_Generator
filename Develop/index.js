@@ -1,16 +1,19 @@
-// array of questions for user
-const questions = [
+// Require inquirer and fs packages 
+const inquirer = require('inquirer');
 
-];
+// Require file for writing data
+const generateMarkdown = require('./utils/generateMarkdown.js');
 
-// function to write README file
-function writeToFile(fileName, data) {
-}
-
-// function to initialize program
-function init() {
-
-}
-
-// function call to initialize program
-init();
+// Prompt user and then call function to write data to file
+inquirer
+    .prompt([
+        {
+            type: 'input',
+            message: 'What is your name?',
+            name: 'name',
+        },
+    ])
+    .then((response) => {
+        generateMarkdown.writeData(response);
+    }
+    );
