@@ -48,7 +48,7 @@ const writeData = (data) => {
 
   // Write the data to the README file
   fs.writeFile('README.md',
-    `${badgePath}\n# ${data.title}\n## Description\n${data.description}\n## Table of Contents\n- [Installation](#installation)\n- [Usage](#usage)\n- [Contributing](#contributing)\n- [Tests](#tests)\n- [License](#license)\n- [Questions](#questions)\n- [Screenshot](#screenshot)\n## Installation\n${data.installation}\n## Usage\n${data.usage}\n## Contributing\n${data.contribution}\n## Tests\n${data.testing}\n## License\n${data.license}\n\nFor information on this license, please follow [this link](${licensePath})\n## Questions\nContact the author with questions via GitHub or email at\n\n[${data.username} at GitHub](https://github.com/${data.username})<br>${data.email}\n## Screenshot\n${screenPath}`
+    `${badgePath}\n# ${data.title}\n## Description\n${data.description}\n## Table of Contents\n- [Installation](#installation)\n- [Usage](#usage)\n- [Contributing](#contributing)\n- [Tests](#tests)\n- [License](#license)\n- [Questions](#questions)\n- [Screenshot](#screenshot)\n## Installation\n${data.installation}\n## Usage\n${data.usage}\n## Contributing\n${data.contribution}\n## Tests\n${data.test}\n## License\n${data.license}\n\nFor information on this license, please follow [this link](${licensePath})\n## Questions\nContact the author with questions via GitHub or email at\n\n[${data.username} at GitHub](https://github.com/${data.username})<br>${data.email}\n## Screenshot\n${screenPath}`
     , err => {
       if (err) {
         console.error(err)

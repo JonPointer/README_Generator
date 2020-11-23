@@ -1,7 +1,7 @@
-![License Badge](https://img.shields.io/badge/License-GNU_LGPLv3-blue)
-# Project Title
+![License Badge](https://img.shields.io/badge/License-Mozilla_Public_License_2.0-blue)
+# Test Title
 ## Description
-Project Description
+Test Description
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
@@ -11,20 +11,20 @@ Project Description
 - [Questions](#questions)
 - [Screenshot](#screenshot)
 ## Installation
-Installation Instructions
+Test Intallation
 ## Usage
-Usage Information
+Test Usage
 ## Contributing
-Contribution Guidelines
+Test Contribution
 ## Tests
-undefined
+Test Test
 ## License
-GNU_LGPLv3
+Mozilla_Public_License_2.0
 
-For information on this license, please follow [this link](https://choosealicense.com/licenses/lgpl-3.0/)
+For information on this license, please follow [this link](https://choosealicense.com/licenses/mpl-2.0/)
 ## Questions
 Contact the author with questions via GitHub or email at
 
 [JonPointer at GitHub](https://github.com/JonPointer)<br>jonpointer@msn.com
 ## Screenshot
-![Screenshot](./testScreenShot.png)
+![Screenshot](./testScreenshot.png)
